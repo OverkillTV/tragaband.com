@@ -110,7 +110,7 @@ a {
     height: 100%;
     z-index: -2;
 
-    background-image: url('../img/anastasia-mk-002.jpg');
+    /* background-image: url('../img/anastasia-mk-002.jpg'); */
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
