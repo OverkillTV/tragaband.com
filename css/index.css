@@ -1,0 +1,327 @@
+.divPageContent {
+    text-align: center;
+    /* margin-left: 15px; */
+    /* width: 810px; */
+    width: 45%;
+    /* height: 100%; */
+
+    padding-top: 160px;
+    padding-bottom: 10px;
+}
+
+.divLogo {
+    padding: 0px 0px 10px 0px;
+}
+.divLogo img {
+    max-width: 400px;
+}
+
+.modal-dialog {
+    width:100%;
+    max-width:1280px
+}
+
+.divYouTubePlayerWrapper {
+    padding: 10px 0px;
+}
+
+.divYouTubePlayerWrapper iframe {
+    /* width: 100%; */
+    height: 50%;
+}
+
+.divTextWrapper {
+    box-sizing: border-box;
+    /* margin: auto; */
+    padding-left: 60px;
+    padding-right: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100%; */
+}
+.divTextContent {
+    color: #C9C9C8;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 80%; */
+}
+.divTextContent p {
+    text-align: justify;
+}
+.divTextContent .siteLogo {
+    margin-bottom: 50px;
+    width: 200px
+    /* align-self: flex-start; */
+}
+.divTextContent .imgSoon {
+    width: 100%;
+}
+
+.goldLineText {
+    color: #85754e;
+    font-weight: 900;
+    font-size: 1.8em;
+    line-height: 2;
+    text-transform: uppercase;
+
+    word-break: break-word;
+}
+.whiteLineText {
+    /* margin-top: 50px; */
+    color: #fff;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 2;
+    text-transform: uppercase;
+
+    word-break: break-word;
+}
+
+/* Responsive */
+@media only screen and (max-width: 960px) {
+    .divLogo img {
+        /* width: 80%; */
+    }
+    .divTextWrapper {
+        padding: 180px 0 0 0;
+        width: 100%;
+    }
+    .divTextContent {
+        justify-content: center;
+        
+    }
+    .divYouTubePlayerWrapper {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-dialog {
+        width: auto;
+    }
+    .youtubeWrapper iframe {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .navRoot {
+        width: 100%;
+    }
+    /* .divLogo {
+        display: none;
+    } */
+    .divLogo img {
+        width: 60%;
+    }
+    .divTextWrapper {
+        padding: 180px 0 0 0;
+        width: 100%;
+    }
+    .divTextContent {
+        
+        justify-content: center;
+    }
+    .modal-dialog {
+        width: auto;
+    }
+    .divYouTubePlayerWrapper {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-dialog {
+        width: auto;
+    }
+    .youtubeWrapper iframe {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .navRoot {
+        width: 100%;
+    }
+    /* .divLogo {
+        display: none;
+    } */
+    .divLogo img {
+        width: 60%;
+    }
+    .divTextWrapper {
+        padding: 180px 0 0 0;
+        width: 100%;
+    }
+    .divTextContent {
+        
+        justify-content: center;
+    }
+    .divYouTubePlayerWrapper {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-dialog {
+        width: auto;
+    }
+    .youtubeWrapper iframe {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .navRoot {
+        width: 100%;
+    }
+    /* .divLogo {
+        display: none;
+    } */
+    .divLogo img {
+        width: 60%;
+    }
+    .divTextWrapper {
+        padding: 180px 0 0 0;
+        width: 100%;
+    }
+    .divTextContent {
+        
+        justify-content: center;
+    }
+    .divYouTubePlayerWrapper {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-dialog {
+        width: auto;
+    }
+    .youtubeWrapper iframe {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .navRoot {
+        width: 100%;
+    }
+    /* .divLogo {
+        display: none;
+    } */
+    .divLogo img {
+        width: 60%;
+    }
+    .divTextWrapper {
+        padding: 180px 0 0 0;
+        width: 100%;
+    }
+    .divTextContent {
+        
+        justify-content: center;
+    }
+    .divYouTubePlayerWrapper {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-dialog {
+        width: auto;
+    }
+    .youtubeWrapper iframe {
+        height: 400px;
+    }
+}
+
+@media only screen  and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+    .divLogo img {
+        width: 60%;
+    }
+    .divTextWrapper {
+        padding: 180px 0 0 0;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .divTextContent {
+        
+        justify-content: center;
+    }
+    .divYouTubePlayerWrapper {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-dialog {
+        width: auto;
+    }
+    .youtubeWrapper iframe {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-device-width: 350px) and (max-device-width: 812px) and (orientation: portrait) {
+    .divLogo img {
+        width: 60%;
+    }
+    .divTextWrapper {
+        padding: 180px 0 0 0;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .divTextContent {
+        
+        justify-content: center;
+    }
+    .divYouTubePlayerWrapper {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-dialog {
+        width: auto;
+    }
+    .youtubeWrapper iframe {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1180px) and (orientation: portrait) {
+    .divLogo img {
+        width: 60%;
+    }
+    .divTextWrapper {
+        padding: 180px 0 0 0;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .divTextContent {
+        
+        justify-content: center;
+    }
+    .divYouTubePlayerWrapper {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-dialog {
+        width: auto;
+    }
+    .youtubeWrapper iframe {
+        height: 400px;
+    }
+}

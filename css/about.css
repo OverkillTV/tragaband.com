@@ -1,0 +1,10 @@
+.imgSection {
+    margin-top: 10px;
+}
+.imgSection .row div {
+    padding: 10px;
+}
+.imgSection img {
+    width: 100%;
+    /* max-height: 400px; */
+}

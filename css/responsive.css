@@ -1,0 +1,786 @@
+@media only screen and (max-width: 960px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.divBodyWrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 100%;
+	}
+    .divPCNavigation {
+        display: none;
+    }
+    .divMobileNavigation {
+        display: block;
+    }
+    .divBackDrop.show {
+		display: block;
+		position: fixed;
+		background: rgba(0,0,0,0.5);
+		/* opacity: 0.8; */
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-y: scroll;
+	}
+	.divBodyContent {
+		padding: 0 20px;
+		margin: 60px 0 0 0;
+		width: 100%;
+
+		background-image: url('../img/anastasia-mobile-001.jpg');
+		background-position-y: 40px;
+		background-size: cover;
+
+		background-attachment: fixed;
+	}
+	.divBodyContent::before {
+		background-image: url('../img/anastasia-mobile-002.jpg');
+		background-size: cover;
+	}
+	.divPageContent {
+		padding-left: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	iframe {
+		width: 100% !important;
+	}
+	.divMediaIcons {
+		width: 100%;
+	}
+	.mediaLink:not(:first-child) {
+        margin-left: 12px;
+    }
+	.divTopNav {
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+	.divSiteLogo {
+		
+	}
+	.navLogo {
+		margin-right: 5px;
+    	margin-left: 20px;
+	}
+	.txtAsLogo {
+		font-size: 1.5em !important;
+	}
+}
+@media only screen and (max-width: 600px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		flex: 100%;
+	}
+	.divBodyWrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	#btnGoToTop {
+		bottom: 58px;
+		right: 5px;
+		left: auto;
+	}
+    .divPCNavigation {
+        display: none;
+    }
+    .divMobileNavigation {
+        display: block;
+    }
+    .divBackDrop.show {
+		display: block;
+		position: fixed;
+		background: rgba(0,0,0,0.5);
+		/* opacity: 0.8; */
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-y: scroll;
+	}
+	.divBodyContent {
+		padding: 0 20px;
+		margin: 60px 0 0 0;
+		width: 100%;
+
+		background-image: url('../img/anastasia-mobile-001.jpg');
+		background-position-y: 40px;
+		background-size: cover;
+
+		background-attachment: fixed;
+	}
+	.divBodyContent::before {
+		background-image: url('../img/anastasia-mobile-002.jpg');
+		background-size: cover;
+
+	}
+	.divPageContent {
+		padding-left: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	iframe {
+		width: 100% !important;
+	}
+	.hideOnPC {
+		display: block;
+	}
+	.hideOnMobile {
+		display: none !important;
+	}
+	.divMediaIcons {
+		width: 100%;
+	}
+	.mediaLink:not(:first-child) {
+        margin-left: 12px;
+    }
+	.divTopNav {
+		flex-direction: row-reverse;
+	}
+	.divSiteLogo {
+		/* width: 71%;
+		justify-content: flex-start;
+		flex-direction: row-reverse; */
+	}
+	.navLogo {
+		margin-right: 5px;
+    	margin-left: 20px;
+	}
+	.txtAsLogo {
+		font-size: 1.5em !important;
+	}
+	.divTextContent .siteLogo {
+		width: 45%;
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 550px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.divBodyWrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 100%;
+	}
+	.divSiteLogo {
+		display: none;
+	}
+	.navRoot {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 500px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.divBodyWrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 100%;
+	}
+	#btnGoToTop {
+		bottom: 58px;
+		right: 5px;
+		left: auto;
+	}
+    .divPCNavigation {
+        display: none;
+    }
+    .divMobileNavigation {
+        display: block;
+    }
+    .divBackDrop.show {
+		display: block;
+		position: fixed;
+		background: rgba(0,0,0,0.5);
+		/* opacity: 0.8; */
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-y: scroll;
+	}
+	.divBodyContent {
+		padding: 0 20px;
+		margin: 60px 0 0 0;
+		width: 100%;
+
+		background-image: url('../img/anastasia-mobile-001.jpg');
+		background-position-y: 40px;
+		background-size: cover;
+
+		background-attachment: fixed;
+	}
+	.divBodyContent::before {
+		background-image: url('../img/anastasia-mobile-002.jpg');
+		background-size: cover;
+
+		/* animation: none; */
+	}
+	.divPageContent {
+		padding-left: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	iframe {
+		width: 100% !important;
+	}
+	.hideOnPC {
+		display: block;
+	}
+	.hideOnMobile {
+		display: none !important;
+	}
+	.divMediaIcons {
+		width: 100%;
+	}
+	.mediaLink:not(:first-child) {
+        margin-left: 12px;
+    }
+	.divTopNav {
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+	.divSiteLogo {
+		display: none;
+	}
+	.navLogo {
+		margin-right: 5px;
+    	margin-left: 20px;
+	}
+	.txtAsLogo {
+		font-size: 1.5em !important;
+	}
+	.divTextContent .siteLogo {
+		width: 45%;
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.divBodyWrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 100%;
+	}
+	#btnGoToTop {
+		bottom: 58px;
+		right: 5px;
+		left: auto;
+	}
+    .divPCNavigation {
+        display: none;
+    }
+    .divMobileNavigation {
+        display: block;
+    }
+    .divBackDrop.show {
+		display: block;
+		position: fixed;
+		background: rgba(0,0,0,0.5);
+		/* opacity: 0.8; */
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-y: scroll;
+	}
+	.divBodyContent {
+		padding: 0 20px;
+		margin: 60px 0 0 0;
+		width: 100%;
+
+		background-image: url('../img/anastasia-mobile-001.jpg');
+		background-position-y: 40px;
+		background-size: cover;
+
+		background-attachment: fixed;
+	}
+	.divBodyContent::before {
+		background-image: url('../img/anastasia-mobile-002.jpg');
+		background-size: cover;
+
+		/* animation: none; */
+	}
+	.divPageContent {
+		padding-left: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	iframe {
+		width: 100% !important;
+	}
+
+	.imgLarge {
+        max-width: 360px;
+    }
+	.hideOnPC {
+		display: block;
+	}
+	.hideOnMobile {
+		display: none !important;
+	}
+	.divMediaIcons {
+		width: 100%;
+	}
+	.mediaLink:not(:first-child) {
+        margin-left: 12px;
+    }
+	.divTopNav {
+		flex-direction: row-reverse;
+	}
+	.divSiteLogo {
+		width: 71%;
+		justify-content: flex-start;
+		flex-direction: row-reverse;
+	}
+	.navLogo {
+		margin-right: 5px;
+    margin-left: 20px;
+	}
+	.txtAsLogo {
+		font-size: 1.5em !important;
+	}
+	.divTextContent .siteLogo {
+		width: 45%;
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.divBodyWrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 100%;
+	}
+	#btnGoToTop {
+		bottom: 58px;
+		right: 5px;
+		left: auto;
+	}
+    .divPCNavigation {
+        display: none;
+    }
+    .divMobileNavigation {
+        display: block;
+    }
+    .divBackDrop.show {
+		display: block;
+		position: fixed;
+		background: rgba(0,0,0,0.5);
+		/* opacity: 0.8; */
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-y: scroll;
+	}
+	.divBodyContent {
+		padding: 0 20px;
+		margin: 60px 0 0 0;
+		width: 100%;
+
+		background-image: url('../img/anastasia-mobile-001.jpg');
+		background-position-y: 40px;
+		background-size: cover;
+
+		background-attachment: fixed;
+	}
+	.divBodyContent::before {
+		background-image: url('../img/anastasia-mobile-002.jpg');
+		background-size: cover;
+
+		/* animation: none; */
+	}
+	iframe {
+		width: 100% !important;
+	}
+	.divPageContent {
+		padding-left: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.imgLarge {
+        max-width: 345px;
+    }
+	.hideOnPC {
+		display: block;
+	}
+	.hideOnMobile {
+		display: none !important;
+	}
+	.divMediaIcons {
+		width: 100%;
+	}
+	.mediaLink:not(:first-child) {
+        margin-left: 12px;
+    }
+	.divTopNav {
+		flex-direction: row-reverse;
+	}
+	.divSiteLogo {
+		width: 71%;
+		justify-content: flex-start;
+		flex-direction: row-reverse;
+	}
+	.navLogo {
+		margin-right: 5px;
+    margin-left: 20px;
+	}
+	.txtAsLogo {
+		font-size: 1.5em !important;
+	}
+	.divTextContent .siteLogo {
+		width: 45%;
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.divBodyWrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 100%;
+	}
+	#btnGoToTop {
+		bottom: 58px;
+		right: 5px;
+		left: auto;
+	}
+    .divPCNavigation {
+        display: none;
+    }
+    .divMobileNavigation {
+        display: block;
+    }
+    .divBackDrop.show {
+		display: block;
+		position: fixed;
+		background: rgba(0,0,0,0.5);
+		/* opacity: 0.8; */
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-y: scroll;
+	}
+	.divBodyContent {
+		padding: 0 20px;
+		margin: 60px 0 0 0;
+		width: 100%;
+
+		background-image: url('../img/anastasia-mobile-001.jpg');
+		background-position-y: 40px;
+		background-size: cover;
+
+		background-attachment: fixed;
+	}
+	.divBodyContent::before {
+		background-image: url('../img/anastasia-mobile-002.jpg');
+		background-size: cover;
+
+	}
+	iframe {
+		width: 100% !important;
+	}
+	.divPageContent {
+		padding-left: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.imgLarge {
+        max-width: 300px;
+    }
+	.hideOnPC {
+		display: block;
+	}
+	.hideOnMobile {
+		display: none !important;
+	}
+	.divMediaIcons {
+		width: 100%;
+	}
+	.mediaLink:not(:first-child) {
+        margin-left: 12px;
+    }
+	.divTopNav {
+		flex-direction: row-reverse;
+	}
+	.divSiteLogo {
+		width: 71%;
+		justify-content: flex-start;
+		flex-direction: row-reverse;
+	}
+	.navLogo {
+		margin-right: 5px;
+    margin-left: 20px;
+	}
+	.txtAsLogo {
+		font-size: 1.5em !important;
+	}
+	.divTextContent .siteLogo {
+		width: 45%;
+		margin-bottom: 15px;
+	}
+}
+
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 568px) and (orientation: portrait) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.divBodyWrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 100%;
+	}
+	#btnGoToTop {
+		bottom: 58px;
+		right: 5px;
+		left: auto;
+	}
+    .divPCNavigation {
+        display: none;
+    }
+    .divMobileNavigation {
+        display: block;
+    }
+    .divBackDrop.show {
+		display: block;
+		position: fixed;
+		background: rgba(0,0,0,0.5);
+		/* opacity: 0.8; */
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-y: scroll;
+	}
+	.divBodyContent {
+		padding: 0 20px;
+		margin: 60px 0 0 0;
+		width: 100%;
+
+		background-image: url('../img/anastasia-mobile-001.jpg');
+		background-position-y: 40px;
+		background-size: cover;
+
+		background-attachment: fixed;
+	}
+	.divBodyContent::before {
+		background-image: url('../img/anastasia-mobile-002.jpg');
+		background-size: cover;
+
+		/* animation: none; */
+	}
+	iframe {
+		width: 100% !important;
+	}
+	.divPageContent {
+		padding-left: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.imgLarge {
+        max-width: 300px;
+    }
+	.hideOnPC {
+		display: block;
+	}
+	.hideOnMobile {
+		display: none !important;
+	}
+	.divMediaIcons {
+		width: 100%;
+	}
+	.mediaLink:not(:first-child) {
+        margin-left: 12px;
+    }
+	.divTextContent .siteLogo {
+		width: 45%;
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (min-device-width: 350px) and (max-device-width: 812px) and (orientation: portrait) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.divBodyWrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 100%;
+	}
+	#btnGoToTop {
+		bottom: 58px;
+		right: 5px;
+		left: auto;
+	}
+    .divPCNavigation {
+        display: none;
+    }
+    .divMobileNavigation {
+        display: block;
+    }
+    .divBackDrop.show {
+		display: block;
+		position: fixed;
+		background: rgba(0,0,0,0.5);
+		/* opacity: 0.8; */
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-y: scroll;
+	}
+	.divBodyContent {
+		padding: 0 20px;
+		margin: 60px 0 0 0;
+		width: 100%;
+
+		background-image: url('../img/anastasia-mobile-001.jpg');
+		background-position-y: 40px;
+		background-size: cover;
+
+		background-attachment: fixed;
+	}
+	.divBodyContent::before {
+		background-image: url('../img/anastasia-mobile-002.jpg');
+		background-size: cover;
+
+		/* animation: none; */
+	}
+	iframe {
+		width: 100% !important;
+	}
+	.divPageContent {
+		padding-left: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.imgLarge {
+        max-width: 340px;
+    }
+	.hideOnPC {
+		display: block;
+	}
+	.hideOnMobile {
+		display: none !important;
+	}
+	.divMediaIcons {
+		width: 100%;
+	}
+	.mediaLink:not(:first-child) {
+        margin-left: 12px;
+    }
+	.divTextContent .siteLogo {
+		width: 45%;
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (min-device-width: 600px) and (max-device-width: 1180px) and (orientation: portrait) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.divBodyWrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 100%;
+	}
+	#btnGoToTop {
+		bottom: 58px;
+		right: 5px;
+		left: auto;
+	}
+    .divPCNavigation {
+        display: none;
+    }
+    .divMobileNavigation {
+        display: block;
+    }
+    .divBackDrop.show {
+		display: block;
+		position: fixed;
+		background: rgba(0,0,0,0.5);
+		/* opacity: 0.8; */
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-y: scroll;
+	}
+	.divBodyContent {
+		padding: 0 20px;
+		margin: 60px 0 0 0;
+		width: 100%;
+
+		background-image: url('../img/anastasia-mobile-001.jpg');
+		background-position-y: 40px;
+		background-size: cover;
+
+		background-attachment: fixed;
+	}
+	.divBodyContent::before {
+		background-image: url('../img/anastasia-mobile-002.jpg');
+		background-size: cover;
+
+		/* animation: none; */
+	}
+	.divPageContent {
+		padding-left: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	iframe {
+		width: 100% !important;
+	}
+	.divMediaIcons {
+		width: 100%;
+	}
+	.mediaLink:not(:first-child) {
+        margin-left: 12px;
+    }
+	.divTextContent .siteLogo {
+		width: 45%;
+		margin-bottom: 15px;
+	}
+}
