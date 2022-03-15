@@ -166,9 +166,9 @@ a {
 
 
 .divMainNavigation {
-    background-color: #fff;
+    background-color: #333;
     /* background-color: #ffffff; */
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 3px solid #333;
 
     position: fixed;
     top: 0;
