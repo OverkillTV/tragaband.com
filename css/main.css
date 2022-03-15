@@ -86,7 +86,7 @@ a {
     /* height: calc(100% - 108px); */
 
     position: relative;
-    /* background-image: url('../img/anastasia-mk-001.jpg'); */
+    background-image: url('../img/bg.jpg');
     background-color: #333;
     background-size: cover;
     /* background-size: 100% 100%; */
@@ -102,7 +102,7 @@ a {
     animation-duration: 15s;
     animation-direction: normal;
 }
-.divBodyContent::before {
+/* .divBodyContent::before {
     content: "";
     position: absolute;
     top: 0;
@@ -111,7 +111,7 @@ a {
     height: 100%;
     z-index: -2;
 
-    /* background-image: url('../img/anastasia-mk-002.jpg'); */
+    background-image: url('../img/bg.jpg');
     background-color: #333;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ a {
     animation-iteration-count: infinite;
     animation-duration: 15s;
     animation-direction: normal;
-}
+} */
 
 .divPageContent {
     /* max-width: 600px;
