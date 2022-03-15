@@ -64,7 +64,7 @@ a {
 .divBodyHeader {
     font-family: "Open Sans", sans-serif;
     color: #fff;
-    background: url(../img/header_background.jpg) no-repeat 0px -301px fixed;
+    /* background: url(../img/header_background.jpg) no-repeat 0px -301px fixed; */
     background-size: cover;
     min-height: 350px;
     
@@ -86,7 +86,7 @@ a {
     /* height: calc(100% - 108px); */
 
     position: relative;
-    background-image: url('../img/anastasia-mk-001.jpg');
+    /* background-image: url('../img/anastasia-mk-001.jpg'); */
     background-size: cover;
     /* background-size: 100% 100%; */
     background-repeat: no-repeat;
