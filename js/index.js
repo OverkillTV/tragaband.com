@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    $("#modalVideo").modal("show");
+    // $("#modalVideo").modal("show");
 });
