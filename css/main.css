@@ -147,7 +147,7 @@ a {
 
 .divBodyFooter {
     min-height: 48px;
-    background-color: #333;
+    background-color: #fff;
 
     display: flex;
     flex-direction: column;
