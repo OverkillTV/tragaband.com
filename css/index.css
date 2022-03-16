@@ -49,6 +49,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.divPhotoBoxes:last-child {
+    margin-top: -80px;
+}
 .divPhotoBox img {
     /* max-width: 500px; */
     max-height: 500px;
@@ -100,7 +103,7 @@
         /* width: 80%; */
     }
     .divTextWrapper {
-        padding: 180px 0 0 0;
+        padding: 60px 0 0 0;
         width: 100%;
     }
     .divTextContent {
@@ -131,7 +134,7 @@
         width: 60%;
     }
     .divTextWrapper {
-        padding: 180px 0 0 0;
+        padding: 60px 0 0 0;
         width: 100%;
     }
     .divTextContent {
@@ -165,7 +168,7 @@
         width: 60%;
     }
     .divTextWrapper {
-        padding: 180px 0 0 0;
+        padding: 60px 0 0 0;
         width: 100%;
     }
     .divTextContent {
@@ -196,7 +199,7 @@
         width: 60%;
     }
     .divTextWrapper {
-        padding: 180px 0 0 0;
+        padding: 60px 0 0 0;
         width: 100%;
     }
     .divTextContent {
@@ -227,7 +230,7 @@
         width: 60%;
     }
     .divTextWrapper {
-        padding: 180px 0 0 0;
+        padding: 60px 0 0 0;
         width: 100%;
     }
     .divTextContent {
@@ -253,7 +256,7 @@
         width: 60%;
     }
     .divTextWrapper {
-        padding: 180px 0 0 0;
+        padding: 60px 0 0 0;
         width: 100%;
 
         display: flex;
@@ -283,7 +286,7 @@
         width: 60%;
     }
     .divTextWrapper {
-        padding: 180px 0 0 0;
+        padding: 60px 0 0 0;
         width: 100%;
 
         display: flex;
@@ -313,7 +316,7 @@
         width: 60%;
     }
     .divTextWrapper {
-        padding: 180px 0 0 0;
+        padding: 60px 0 0 0;
         width: 100%;
 
         display: flex;

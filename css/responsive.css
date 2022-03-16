@@ -3,6 +3,7 @@
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
+		width: 100%;
 	}
 	.divBodyWrapper {
 		display: flex;
@@ -77,6 +78,7 @@
 		flex-direction: column;
 		flex-wrap: nowrap;
 		flex: 100%;
+		width: 100%;
 	}
 	.divBodyWrapper {
 		display: flex;
@@ -160,12 +162,19 @@
 		width: 45%;
 		margin-bottom: 15px;
 	}
+	.divPhotoBox img {
+		max-width: 90%;
+	}
+	.divPhotoBoxes:last-child {
+		margin-top: 20px;
+	}
 }
 @media only screen and (max-width: 550px) {
 	body {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
+		width: 100%;
 	}
 	.divBodyWrapper {
 		display: flex;
@@ -178,12 +187,19 @@
 	.navRoot {
 		width: 100%;
 	}
+	.divPhotoBox img {
+		max-width: 90%;
+	}
+	.divPhotoBoxes:last-child {
+		margin-top: 20px;
+	}
 }
 @media only screen and (max-width: 500px) {
 	body {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
+		width: 100%;
 	}
 	.divBodyWrapper {
 		display: flex;
@@ -268,12 +284,19 @@
 		width: 45%;
 		margin-bottom: 15px;
 	}
+	.divPhotoBox img {
+		max-width: 90%;
+	}
+	.divPhotoBoxes:last-child {
+		margin-top: 20px;
+	}
 }
 @media only screen and (max-width: 375px) {
 	body {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
+		width: 100%;
 	}
 	.divBodyWrapper {
 		display: flex;
@@ -363,12 +386,19 @@
 		width: 45%;
 		margin-bottom: 15px;
 	}
+	.divPhotoBox img {
+		max-width: 90%;
+	}
+	.divPhotoBoxes:last-child {
+		margin-top: 20px;
+	}
 }
 @media only screen and (max-width: 360px) {
 	body {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
+		width: 100%;
 	}
 	.divBodyWrapper {
 		display: flex;
@@ -458,12 +488,19 @@
 		width: 45%;
 		margin-bottom: 15px;
 	}
+	.divPhotoBox img {
+		max-width: 90%;
+	}
+	.divPhotoBoxes:last-child {
+		margin-top: 20px;
+	}
 }
 @media only screen and (max-width: 320px) {
 	body {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
+		width: 100%;
 	}
 	.divBodyWrapper {
 		display: flex;
@@ -552,6 +589,12 @@
 		width: 45%;
 		margin-bottom: 15px;
 	}
+	.divPhotoBox img {
+		max-width: 90%;
+	}
+	.divPhotoBoxes:last-child {
+		margin-top: 20px;
+	}
 }
 
 @media only screen  and (min-device-width: 320px)  and (max-device-width: 568px) and (orientation: portrait) {
@@ -559,6 +602,7 @@
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
+		width: 100%;
 	}
 	.divBodyWrapper {
 		display: flex;
@@ -633,12 +677,19 @@
 		width: 45%;
 		margin-bottom: 15px;
 	}
+	.divPhotoBox img {
+		max-width: 90%;
+	}
+	.divPhotoBoxes:last-child {
+		margin-top: 20px;
+	}
 }
 @media only screen and (min-device-width: 350px) and (max-device-width: 812px) and (orientation: portrait) {
 	body {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
+		width: 100%;
 	}
 	.divBodyWrapper {
 		display: flex;
@@ -713,12 +764,19 @@
 		width: 45%;
 		margin-bottom: 15px;
 	}
+	.divPhotoBox img {
+		max-width: 90%;
+	}
+	.divPhotoBoxes:last-child {
+		margin-top: 20px;
+	}
 }
 @media only screen and (min-device-width: 600px) and (max-device-width: 1180px) and (orientation: portrait) {
 	body {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
+		width: 100%;
 	}
 	.divBodyWrapper {
 		display: flex;
@@ -782,5 +840,11 @@
 	.divTextContent .siteLogo {
 		width: 45%;
 		margin-bottom: 15px;
+	}
+	.divPhotoBox img {
+		max-width: 90%;
+	}
+	.divPhotoBoxes:last-child {
+		margin-top: 20px;
 	}
 }
