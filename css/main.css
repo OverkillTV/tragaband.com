@@ -97,7 +97,7 @@ a {
     /* height: calc(100% - 108px); */
 
     position: relative;
-    background-image: url('../img/bg.jpg');
+    /* background-image: url('../img/bg.jpg'); */
     background-color: #333;
     background-size: cover;
     /* background-size: 100% 100%; */
