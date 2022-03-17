@@ -179,6 +179,7 @@
     }
     .divPhotoText {
         width: 100%;
+        order: 3;
     }
 }
 @media only screen and (max-width: 375px) {
@@ -213,6 +214,9 @@
     }
     .divPhotoBox {
         flex: 100%;
+    }
+    .divPhotoBoxBtm {
+        order: 2
     }
     .divPhotoText {
         width: 100%;
@@ -253,6 +257,7 @@
     }
     .divPhotoText {
         width: 100%;
+        order: 3;
     }
 }
 @media only screen and (max-width: 320px) {
@@ -290,6 +295,7 @@
     }
     .divPhotoText {
         width: 100%;
+        order: 3;
     }
 }
 
@@ -326,6 +332,7 @@
     }
     .divPhotoText {
         width: 100%;
+        order: 3;
     }
 }
 
@@ -362,6 +369,7 @@
     }
     .divPhotoText {
         width: 100%;
+        order: 3;
     }
 }
 
@@ -398,5 +406,6 @@
     }
     .divPhotoText {
         width: 100%;
+        order: 3;
     }
 }
