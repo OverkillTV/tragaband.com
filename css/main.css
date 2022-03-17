@@ -358,7 +358,9 @@ img.hideOnPC {
 .divMediaBox img {
     max-width: 300px;
 }
-
-/* .divPhotoBox {
-    max-width: 300px;
-} */
+.rightAlignFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
