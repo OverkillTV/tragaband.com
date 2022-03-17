@@ -60,6 +60,16 @@
 .divPhotoBoxes:last-child {
     margin-top: -80px;
 }
+.divPhotoBox {
+    flex: 1;
+    text-align: center;
+}
+.divPhotoText {
+    width: 50%;
+}
+.divPhotoBoxBtm {
+    flex: 100%;
+}
 .divPhotoBox img {
     /* max-width: 500px; */
     max-height: 500px;
@@ -164,6 +174,12 @@
     .youtubeWrapper iframe {
         height: 400px;
     }
+    .divPhotoBox {
+        flex: 100%;
+    }
+    .divPhotoText {
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 375px) {
     .navRoot {
@@ -194,6 +210,12 @@
     }
     .youtubeWrapper iframe {
         height: 400px;
+    }
+    .divPhotoBox {
+        flex: 100%;
+    }
+    .divPhotoText {
+        width: 100%;
     }
 }
 @media only screen and (max-width: 360px) {
@@ -226,6 +248,12 @@
     .youtubeWrapper iframe {
         height: 400px;
     }
+    .divPhotoBox {
+        flex: 100%;
+    }
+    .divPhotoText {
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 320px) {
     .navRoot {
@@ -257,6 +285,12 @@
     .youtubeWrapper iframe {
         height: 400px;
     }
+    .divPhotoBox {
+        flex: 100%;
+    }
+    .divPhotoText {
+        width: 100%;
+    }
 }
 
 @media only screen  and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
@@ -286,6 +320,12 @@
     }
     .youtubeWrapper iframe {
         height: 400px;
+    }
+    .divPhotoBox {
+        flex: 100%;
+    }
+    .divPhotoText {
+        width: 100%;
     }
 }
 
@@ -317,6 +357,12 @@
     .youtubeWrapper iframe {
         height: 400px;
     }
+    .divPhotoBox {
+        flex: 100%;
+    }
+    .divPhotoText {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-device-width: 600px) and (max-device-width: 1180px) and (orientation: portrait) {
@@ -346,5 +392,11 @@
     }
     .youtubeWrapper iframe {
         height: 400px;
+    }
+    .divPhotoBox {
+        flex: 100%;
+    }
+    .divPhotoText {
+        width: 100%;
     }
 }
