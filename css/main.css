@@ -203,6 +203,13 @@ a {
 
     color: #fff;
 }
+.divSiteLogo a {
+    color: #fff;
+}
+.divSiteLogo a:hover {
+    color: rgb(255 255 255 / 70%);
+    text-decoration: none;
+}
 .divSiteLogo img {
     height: 40px;
 }
@@ -351,3 +358,7 @@ img.hideOnPC {
 .divMediaBox img {
     max-width: 300px;
 }
+
+/* .divPhotoBox {
+    max-width: 300px;
+} */
